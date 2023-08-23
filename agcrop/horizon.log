@@ -1,0 +1,1963 @@
+
+Deprecated: Return type of PhpOption\Some::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/Some.php on line 152
+
+Deprecated: Return type of PhpOption\None::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/None.php on line 118
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 608
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 690
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FileTypeFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FileTypeFilterIterator.php on line 42
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 55
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::hasChildren() should either be compatible with RecursiveIterator::hasChildren(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 74
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::getChildren() should either be compatible with RecursiveIterator::getChildren(): ?RecursiveIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 82
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FilenameFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FilenameFilterIterator.php on line 28
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\PathFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/PathFilterIterator.php on line 27
+
+In ParameterBag.php line 21:
+                                                                               
+  During inheritance of IteratorAggregate: Uncaught ErrorException: Return ty  
+  pe of Symfony\Component\HttpFoundation\ParameterBag::getIterator() should e  
+  ither be compatible with IteratorAggregate::getIterator(): Traversable, or   
+  the #[\ReturnTypeWillChange] attribute should be used to temporarily suppre  
+  ss the notice in /var/www/html/vendor/symfony/http-foundation/ParameterBag.  
+  php:210                                                                      
+  Stack trace:                                                                 
+  #0 /var/www/html/vendor/symfony/http-foundation/ParameterBag.php(21): Illum  
+  inate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type  
+   of ...', '/var/www/html/v...', 210)                                         
+  #1 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #2 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #3 /var/www/html/vendor/symfony/http-foundation/FileBag.php(22): Composer\A  
+  utoload\ClassLoader->loadClass('Symfony\\Compone...')                        
+  #4 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #5 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Symfony\\  
+  Compone...')                                                                 
+  #7 /var/www/html/vendor/symfony/http-foundation/Request.php(22): class_exis  
+  ts('Symfony\\Compone...')                                                    
+  #8 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #9 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Request.php(  
+  20): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')         
+  #11 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/h  
+  tml/v...')                                                                   
+  #12 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\i  
+  ncludeFile('/var/www/html/v...')                                             
+  #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootst  
+  rap/SetRequestForConsole.php(31): Composer\Autoload\ClassLoader->loadClass(  
+  'Illuminate\\Http...')                                                       
+  #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Applic  
+  ation.php(237): Illuminate\Foundation\Bootstrap\SetRequestForConsole->boots  
+  trap(Object(Illuminate\Foundation\Application))                              
+  #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)   
+  #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()         
+  #17 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle  
+  (Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Componen  
+  t\Console\Output\ConsoleOutput))                                             
+  #18 {main}                                                                   
+                                                                               
+
+
+Deprecated: Return type of PhpOption\Some::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/Some.php on line 152
+
+Deprecated: Return type of PhpOption\None::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/None.php on line 118
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 608
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 690
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FileTypeFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FileTypeFilterIterator.php on line 42
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 55
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::hasChildren() should either be compatible with RecursiveIterator::hasChildren(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 74
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::getChildren() should either be compatible with RecursiveIterator::getChildren(): ?RecursiveIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 82
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FilenameFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FilenameFilterIterator.php on line 28
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\PathFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/PathFilterIterator.php on line 27
+
+In ParameterBag.php line 21:
+                                                                               
+  During inheritance of IteratorAggregate: Uncaught ErrorException: Return ty  
+  pe of Symfony\Component\HttpFoundation\ParameterBag::getIterator() should e  
+  ither be compatible with IteratorAggregate::getIterator(): Traversable, or   
+  the #[\ReturnTypeWillChange] attribute should be used to temporarily suppre  
+  ss the notice in /var/www/html/vendor/symfony/http-foundation/ParameterBag.  
+  php:210                                                                      
+  Stack trace:                                                                 
+  #0 /var/www/html/vendor/symfony/http-foundation/ParameterBag.php(21): Illum  
+  inate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type  
+   of ...', '/var/www/html/v...', 210)                                         
+  #1 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #2 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #3 /var/www/html/vendor/symfony/http-foundation/FileBag.php(22): Composer\A  
+  utoload\ClassLoader->loadClass('Symfony\\Compone...')                        
+  #4 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #5 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Symfony\\  
+  Compone...')                                                                 
+  #7 /var/www/html/vendor/symfony/http-foundation/Request.php(22): class_exis  
+  ts('Symfony\\Compone...')                                                    
+  #8 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #9 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Request.php(  
+  20): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')         
+  #11 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/h  
+  tml/v...')                                                                   
+  #12 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\i  
+  ncludeFile('/var/www/html/v...')                                             
+  #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootst  
+  rap/SetRequestForConsole.php(31): Composer\Autoload\ClassLoader->loadClass(  
+  'Illuminate\\Http...')                                                       
+  #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Applic  
+  ation.php(237): Illuminate\Foundation\Bootstrap\SetRequestForConsole->boots  
+  trap(Object(Illuminate\Foundation\Application))                              
+  #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)   
+  #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()         
+  #17 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle  
+  (Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Componen  
+  t\Console\Output\ConsoleOutput))                                             
+  #18 {main}                                                                   
+                                                                               
+
+
+Deprecated: Return type of PhpOption\Some::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/Some.php on line 152
+
+Deprecated: Return type of PhpOption\None::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/None.php on line 118
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 608
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 690
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FileTypeFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FileTypeFilterIterator.php on line 42
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 55
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::hasChildren() should either be compatible with RecursiveIterator::hasChildren(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 74
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::getChildren() should either be compatible with RecursiveIterator::getChildren(): ?RecursiveIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 82
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FilenameFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FilenameFilterIterator.php on line 28
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\PathFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/PathFilterIterator.php on line 27
+
+In ParameterBag.php line 21:
+                                                                               
+  During inheritance of IteratorAggregate: Uncaught ErrorException: Return ty  
+  pe of Symfony\Component\HttpFoundation\ParameterBag::getIterator() should e  
+  ither be compatible with IteratorAggregate::getIterator(): Traversable, or   
+  the #[\ReturnTypeWillChange] attribute should be used to temporarily suppre  
+  ss the notice in /var/www/html/vendor/symfony/http-foundation/ParameterBag.  
+  php:210                                                                      
+  Stack trace:                                                                 
+  #0 /var/www/html/vendor/symfony/http-foundation/ParameterBag.php(21): Illum  
+  inate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type  
+   of ...', '/var/www/html/v...', 210)                                         
+  #1 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #2 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #3 /var/www/html/vendor/symfony/http-foundation/FileBag.php(22): Composer\A  
+  utoload\ClassLoader->loadClass('Symfony\\Compone...')                        
+  #4 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #5 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Symfony\\  
+  Compone...')                                                                 
+  #7 /var/www/html/vendor/symfony/http-foundation/Request.php(22): class_exis  
+  ts('Symfony\\Compone...')                                                    
+  #8 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #9 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Request.php(  
+  20): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')         
+  #11 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/h  
+  tml/v...')                                                                   
+  #12 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\i  
+  ncludeFile('/var/www/html/v...')                                             
+  #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootst  
+  rap/SetRequestForConsole.php(31): Composer\Autoload\ClassLoader->loadClass(  
+  'Illuminate\\Http...')                                                       
+  #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Applic  
+  ation.php(237): Illuminate\Foundation\Bootstrap\SetRequestForConsole->boots  
+  trap(Object(Illuminate\Foundation\Application))                              
+  #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)   
+  #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()         
+  #17 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle  
+  (Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Componen  
+  t\Console\Output\ConsoleOutput))                                             
+  #18 {main}                                                                   
+                                                                               
+
+
+Deprecated: Return type of PhpOption\Some::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/Some.php on line 152
+
+Deprecated: Return type of PhpOption\None::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/None.php on line 118
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 608
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 690
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FileTypeFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FileTypeFilterIterator.php on line 42
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 55
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::hasChildren() should either be compatible with RecursiveIterator::hasChildren(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 74
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::getChildren() should either be compatible with RecursiveIterator::getChildren(): ?RecursiveIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 82
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FilenameFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FilenameFilterIterator.php on line 28
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\PathFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/PathFilterIterator.php on line 27
+
+In ParameterBag.php line 21:
+                                                                               
+  During inheritance of IteratorAggregate: Uncaught ErrorException: Return ty  
+  pe of Symfony\Component\HttpFoundation\ParameterBag::getIterator() should e  
+  ither be compatible with IteratorAggregate::getIterator(): Traversable, or   
+  the #[\ReturnTypeWillChange] attribute should be used to temporarily suppre  
+  ss the notice in /var/www/html/vendor/symfony/http-foundation/ParameterBag.  
+  php:210                                                                      
+  Stack trace:                                                                 
+  #0 /var/www/html/vendor/symfony/http-foundation/ParameterBag.php(21): Illum  
+  inate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type  
+   of ...', '/var/www/html/v...', 210)                                         
+  #1 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #2 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #3 /var/www/html/vendor/symfony/http-foundation/FileBag.php(22): Composer\A  
+  utoload\ClassLoader->loadClass('Symfony\\Compone...')                        
+  #4 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #5 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Symfony\\  
+  Compone...')                                                                 
+  #7 /var/www/html/vendor/symfony/http-foundation/Request.php(22): class_exis  
+  ts('Symfony\\Compone...')                                                    
+  #8 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #9 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Request.php(  
+  20): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')         
+  #11 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/h  
+  tml/v...')                                                                   
+  #12 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\i  
+  ncludeFile('/var/www/html/v...')                                             
+  #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootst  
+  rap/SetRequestForConsole.php(31): Composer\Autoload\ClassLoader->loadClass(  
+  'Illuminate\\Http...')                                                       
+  #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Applic  
+  ation.php(237): Illuminate\Foundation\Bootstrap\SetRequestForConsole->boots  
+  trap(Object(Illuminate\Foundation\Application))                              
+  #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)   
+  #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()         
+  #17 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle  
+  (Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Componen  
+  t\Console\Output\ConsoleOutput))                                             
+  #18 {main}                                                                   
+                                                                               
+
+
+Deprecated: Return type of PhpOption\Some::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/Some.php on line 152
+
+Deprecated: Return type of PhpOption\None::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/None.php on line 118
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 608
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 690
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FileTypeFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FileTypeFilterIterator.php on line 42
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 55
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::hasChildren() should either be compatible with RecursiveIterator::hasChildren(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 74
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::getChildren() should either be compatible with RecursiveIterator::getChildren(): ?RecursiveIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 82
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FilenameFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FilenameFilterIterator.php on line 28
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\PathFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/PathFilterIterator.php on line 27
+
+In ParameterBag.php line 21:
+                                                                               
+  During inheritance of IteratorAggregate: Uncaught ErrorException: Return ty  
+  pe of Symfony\Component\HttpFoundation\ParameterBag::getIterator() should e  
+  ither be compatible with IteratorAggregate::getIterator(): Traversable, or   
+  the #[\ReturnTypeWillChange] attribute should be used to temporarily suppre  
+  ss the notice in /var/www/html/vendor/symfony/http-foundation/ParameterBag.  
+  php:210                                                                      
+  Stack trace:                                                                 
+  #0 /var/www/html/vendor/symfony/http-foundation/ParameterBag.php(21): Illum  
+  inate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type  
+   of ...', '/var/www/html/v...', 210)                                         
+  #1 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #2 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #3 /var/www/html/vendor/symfony/http-foundation/FileBag.php(22): Composer\A  
+  utoload\ClassLoader->loadClass('Symfony\\Compone...')                        
+  #4 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #5 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Symfony\\  
+  Compone...')                                                                 
+  #7 /var/www/html/vendor/symfony/http-foundation/Request.php(22): class_exis  
+  ts('Symfony\\Compone...')                                                    
+  #8 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #9 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Request.php(  
+  20): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')         
+  #11 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/h  
+  tml/v...')                                                                   
+  #12 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\i  
+  ncludeFile('/var/www/html/v...')                                             
+  #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootst  
+  rap/SetRequestForConsole.php(31): Composer\Autoload\ClassLoader->loadClass(  
+  'Illuminate\\Http...')                                                       
+  #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Applic  
+  ation.php(237): Illuminate\Foundation\Bootstrap\SetRequestForConsole->boots  
+  trap(Object(Illuminate\Foundation\Application))                              
+  #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)   
+  #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()         
+  #17 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle  
+  (Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Componen  
+  t\Console\Output\ConsoleOutput))                                             
+  #18 {main}                                                                   
+                                                                               
+
+
+Deprecated: Return type of PhpOption\Some::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/Some.php on line 152
+
+Deprecated: Return type of PhpOption\None::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/None.php on line 118
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 608
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 690
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FileTypeFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FileTypeFilterIterator.php on line 42
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 55
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::hasChildren() should either be compatible with RecursiveIterator::hasChildren(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 74
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::getChildren() should either be compatible with RecursiveIterator::getChildren(): ?RecursiveIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 82
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FilenameFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FilenameFilterIterator.php on line 28
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\PathFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/PathFilterIterator.php on line 27
+
+In ParameterBag.php line 21:
+                                                                               
+  During inheritance of IteratorAggregate: Uncaught ErrorException: Return ty  
+  pe of Symfony\Component\HttpFoundation\ParameterBag::getIterator() should e  
+  ither be compatible with IteratorAggregate::getIterator(): Traversable, or   
+  the #[\ReturnTypeWillChange] attribute should be used to temporarily suppre  
+  ss the notice in /var/www/html/vendor/symfony/http-foundation/ParameterBag.  
+  php:210                                                                      
+  Stack trace:                                                                 
+  #0 /var/www/html/vendor/symfony/http-foundation/ParameterBag.php(21): Illum  
+  inate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type  
+   of ...', '/var/www/html/v...', 210)                                         
+  #1 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #2 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #3 /var/www/html/vendor/symfony/http-foundation/FileBag.php(22): Composer\A  
+  utoload\ClassLoader->loadClass('Symfony\\Compone...')                        
+  #4 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #5 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Symfony\\  
+  Compone...')                                                                 
+  #7 /var/www/html/vendor/symfony/http-foundation/Request.php(22): class_exis  
+  ts('Symfony\\Compone...')                                                    
+  #8 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #9 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Request.php(  
+  20): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')         
+  #11 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/h  
+  tml/v...')                                                                   
+  #12 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\i  
+  ncludeFile('/var/www/html/v...')                                             
+  #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootst  
+  rap/SetRequestForConsole.php(31): Composer\Autoload\ClassLoader->loadClass(  
+  'Illuminate\\Http...')                                                       
+  #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Applic  
+  ation.php(237): Illuminate\Foundation\Bootstrap\SetRequestForConsole->boots  
+  trap(Object(Illuminate\Foundation\Application))                              
+  #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)   
+  #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()         
+  #17 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle  
+  (Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Componen  
+  t\Console\Output\ConsoleOutput))                                             
+  #18 {main}                                                                   
+                                                                               
+
+
+Deprecated: Return type of PhpOption\Some::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/Some.php on line 152
+
+Deprecated: Return type of PhpOption\None::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/None.php on line 118
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 608
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 690
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FileTypeFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FileTypeFilterIterator.php on line 42
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 55
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::hasChildren() should either be compatible with RecursiveIterator::hasChildren(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 74
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::getChildren() should either be compatible with RecursiveIterator::getChildren(): ?RecursiveIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 82
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FilenameFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FilenameFilterIterator.php on line 28
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\PathFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/PathFilterIterator.php on line 27
+
+In ParameterBag.php line 21:
+                                                                               
+  During inheritance of IteratorAggregate: Uncaught ErrorException: Return ty  
+  pe of Symfony\Component\HttpFoundation\ParameterBag::getIterator() should e  
+  ither be compatible with IteratorAggregate::getIterator(): Traversable, or   
+  the #[\ReturnTypeWillChange] attribute should be used to temporarily suppre  
+  ss the notice in /var/www/html/vendor/symfony/http-foundation/ParameterBag.  
+  php:210                                                                      
+  Stack trace:                                                                 
+  #0 /var/www/html/vendor/symfony/http-foundation/ParameterBag.php(21): Illum  
+  inate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type  
+   of ...', '/var/www/html/v...', 210)                                         
+  #1 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #2 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #3 /var/www/html/vendor/symfony/http-foundation/FileBag.php(22): Composer\A  
+  utoload\ClassLoader->loadClass('Symfony\\Compone...')                        
+  #4 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #5 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Symfony\\  
+  Compone...')                                                                 
+  #7 /var/www/html/vendor/symfony/http-foundation/Request.php(22): class_exis  
+  ts('Symfony\\Compone...')                                                    
+  #8 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #9 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Request.php(  
+  20): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')         
+  #11 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/h  
+  tml/v...')                                                                   
+  #12 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\i  
+  ncludeFile('/var/www/html/v...')                                             
+  #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootst  
+  rap/SetRequestForConsole.php(31): Composer\Autoload\ClassLoader->loadClass(  
+  'Illuminate\\Http...')                                                       
+  #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Applic  
+  ation.php(237): Illuminate\Foundation\Bootstrap\SetRequestForConsole->boots  
+  trap(Object(Illuminate\Foundation\Application))                              
+  #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)   
+  #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()         
+  #17 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle  
+  (Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Componen  
+  t\Console\Output\ConsoleOutput))                                             
+  #18 {main}                                                                   
+                                                                               
+
+
+Deprecated: Return type of PhpOption\Some::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/Some.php on line 152
+
+Deprecated: Return type of PhpOption\None::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/None.php on line 118
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 608
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 690
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FileTypeFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FileTypeFilterIterator.php on line 42
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 55
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::hasChildren() should either be compatible with RecursiveIterator::hasChildren(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 74
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::getChildren() should either be compatible with RecursiveIterator::getChildren(): ?RecursiveIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 82
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FilenameFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FilenameFilterIterator.php on line 28
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\PathFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/PathFilterIterator.php on line 27
+
+In ParameterBag.php line 21:
+                                                                               
+  During inheritance of IteratorAggregate: Uncaught ErrorException: Return ty  
+  pe of Symfony\Component\HttpFoundation\ParameterBag::getIterator() should e  
+  ither be compatible with IteratorAggregate::getIterator(): Traversable, or   
+  the #[\ReturnTypeWillChange] attribute should be used to temporarily suppre  
+  ss the notice in /var/www/html/vendor/symfony/http-foundation/ParameterBag.  
+  php:210                                                                      
+  Stack trace:                                                                 
+  #0 /var/www/html/vendor/symfony/http-foundation/ParameterBag.php(21): Illum  
+  inate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type  
+   of ...', '/var/www/html/v...', 210)                                         
+  #1 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #2 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #3 /var/www/html/vendor/symfony/http-foundation/FileBag.php(22): Composer\A  
+  utoload\ClassLoader->loadClass('Symfony\\Compone...')                        
+  #4 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #5 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Symfony\\  
+  Compone...')                                                                 
+  #7 /var/www/html/vendor/symfony/http-foundation/Request.php(22): class_exis  
+  ts('Symfony\\Compone...')                                                    
+  #8 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #9 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Request.php(  
+  20): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')         
+  #11 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/h  
+  tml/v...')                                                                   
+  #12 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\i  
+  ncludeFile('/var/www/html/v...')                                             
+  #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootst  
+  rap/SetRequestForConsole.php(31): Composer\Autoload\ClassLoader->loadClass(  
+  'Illuminate\\Http...')                                                       
+  #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Applic  
+  ation.php(237): Illuminate\Foundation\Bootstrap\SetRequestForConsole->boots  
+  trap(Object(Illuminate\Foundation\Application))                              
+  #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)   
+  #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()         
+  #17 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle  
+  (Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Componen  
+  t\Console\Output\ConsoleOutput))                                             
+  #18 {main}                                                                   
+                                                                               
+
+
+Deprecated: Return type of PhpOption\Some::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/Some.php on line 152
+
+Deprecated: Return type of PhpOption\None::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/None.php on line 118
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 608
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 690
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FileTypeFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FileTypeFilterIterator.php on line 42
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 55
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::hasChildren() should either be compatible with RecursiveIterator::hasChildren(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 74
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::getChildren() should either be compatible with RecursiveIterator::getChildren(): ?RecursiveIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 82
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FilenameFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FilenameFilterIterator.php on line 28
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\PathFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/PathFilterIterator.php on line 27
+
+In ParameterBag.php line 21:
+                                                                               
+  During inheritance of IteratorAggregate: Uncaught ErrorException: Return ty  
+  pe of Symfony\Component\HttpFoundation\ParameterBag::getIterator() should e  
+  ither be compatible with IteratorAggregate::getIterator(): Traversable, or   
+  the #[\ReturnTypeWillChange] attribute should be used to temporarily suppre  
+  ss the notice in /var/www/html/vendor/symfony/http-foundation/ParameterBag.  
+  php:210                                                                      
+  Stack trace:                                                                 
+  #0 /var/www/html/vendor/symfony/http-foundation/ParameterBag.php(21): Illum  
+  inate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type  
+   of ...', '/var/www/html/v...', 210)                                         
+  #1 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #2 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #3 /var/www/html/vendor/symfony/http-foundation/FileBag.php(22): Composer\A  
+  utoload\ClassLoader->loadClass('Symfony\\Compone...')                        
+  #4 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #5 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Symfony\\  
+  Compone...')                                                                 
+  #7 /var/www/html/vendor/symfony/http-foundation/Request.php(22): class_exis  
+  ts('Symfony\\Compone...')                                                    
+  #8 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #9 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Request.php(  
+  20): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')         
+  #11 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/h  
+  tml/v...')                                                                   
+  #12 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\i  
+  ncludeFile('/var/www/html/v...')                                             
+  #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootst  
+  rap/SetRequestForConsole.php(31): Composer\Autoload\ClassLoader->loadClass(  
+  'Illuminate\\Http...')                                                       
+  #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Applic  
+  ation.php(237): Illuminate\Foundation\Bootstrap\SetRequestForConsole->boots  
+  trap(Object(Illuminate\Foundation\Application))                              
+  #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)   
+  #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()         
+  #17 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle  
+  (Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Componen  
+  t\Console\Output\ConsoleOutput))                                             
+  #18 {main}                                                                   
+                                                                               
+
+
+Deprecated: Return type of PhpOption\Some::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/Some.php on line 152
+
+Deprecated: Return type of PhpOption\None::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/None.php on line 118
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 608
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 690
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FileTypeFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FileTypeFilterIterator.php on line 42
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 55
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::hasChildren() should either be compatible with RecursiveIterator::hasChildren(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 74
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::getChildren() should either be compatible with RecursiveIterator::getChildren(): ?RecursiveIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 82
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FilenameFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FilenameFilterIterator.php on line 28
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\PathFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/PathFilterIterator.php on line 27
+
+In ParameterBag.php line 21:
+                                                                               
+  During inheritance of IteratorAggregate: Uncaught ErrorException: Return ty  
+  pe of Symfony\Component\HttpFoundation\ParameterBag::getIterator() should e  
+  ither be compatible with IteratorAggregate::getIterator(): Traversable, or   
+  the #[\ReturnTypeWillChange] attribute should be used to temporarily suppre  
+  ss the notice in /var/www/html/vendor/symfony/http-foundation/ParameterBag.  
+  php:210                                                                      
+  Stack trace:                                                                 
+  #0 /var/www/html/vendor/symfony/http-foundation/ParameterBag.php(21): Illum  
+  inate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type  
+   of ...', '/var/www/html/v...', 210)                                         
+  #1 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #2 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #3 /var/www/html/vendor/symfony/http-foundation/FileBag.php(22): Composer\A  
+  utoload\ClassLoader->loadClass('Symfony\\Compone...')                        
+  #4 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #5 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Symfony\\  
+  Compone...')                                                                 
+  #7 /var/www/html/vendor/symfony/http-foundation/Request.php(22): class_exis  
+  ts('Symfony\\Compone...')                                                    
+  #8 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #9 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Request.php(  
+  20): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')         
+  #11 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/h  
+  tml/v...')                                                                   
+  #12 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\i  
+  ncludeFile('/var/www/html/v...')                                             
+  #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootst  
+  rap/SetRequestForConsole.php(31): Composer\Autoload\ClassLoader->loadClass(  
+  'Illuminate\\Http...')                                                       
+  #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Applic  
+  ation.php(237): Illuminate\Foundation\Bootstrap\SetRequestForConsole->boots  
+  trap(Object(Illuminate\Foundation\Application))                              
+  #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)   
+  #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()         
+  #17 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle  
+  (Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Componen  
+  t\Console\Output\ConsoleOutput))                                             
+  #18 {main}                                                                   
+                                                                               
+
+
+Deprecated: Return type of PhpOption\Some::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/Some.php on line 152
+
+Deprecated: Return type of PhpOption\None::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/None.php on line 118
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 608
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 690
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FileTypeFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FileTypeFilterIterator.php on line 42
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 55
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::hasChildren() should either be compatible with RecursiveIterator::hasChildren(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 74
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::getChildren() should either be compatible with RecursiveIterator::getChildren(): ?RecursiveIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 82
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FilenameFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FilenameFilterIterator.php on line 28
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\PathFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/PathFilterIterator.php on line 27
+
+In ParameterBag.php line 21:
+                                                                               
+  During inheritance of IteratorAggregate: Uncaught ErrorException: Return ty  
+  pe of Symfony\Component\HttpFoundation\ParameterBag::getIterator() should e  
+  ither be compatible with IteratorAggregate::getIterator(): Traversable, or   
+  the #[\ReturnTypeWillChange] attribute should be used to temporarily suppre  
+  ss the notice in /var/www/html/vendor/symfony/http-foundation/ParameterBag.  
+  php:210                                                                      
+  Stack trace:                                                                 
+  #0 /var/www/html/vendor/symfony/http-foundation/ParameterBag.php(21): Illum  
+  inate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type  
+   of ...', '/var/www/html/v...', 210)                                         
+  #1 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #2 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #3 /var/www/html/vendor/symfony/http-foundation/FileBag.php(22): Composer\A  
+  utoload\ClassLoader->loadClass('Symfony\\Compone...')                        
+  #4 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #5 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Symfony\\  
+  Compone...')                                                                 
+  #7 /var/www/html/vendor/symfony/http-foundation/Request.php(22): class_exis  
+  ts('Symfony\\Compone...')                                                    
+  #8 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #9 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Request.php(  
+  20): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')         
+  #11 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/h  
+  tml/v...')                                                                   
+  #12 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\i  
+  ncludeFile('/var/www/html/v...')                                             
+  #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootst  
+  rap/SetRequestForConsole.php(31): Composer\Autoload\ClassLoader->loadClass(  
+  'Illuminate\\Http...')                                                       
+  #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Applic  
+  ation.php(237): Illuminate\Foundation\Bootstrap\SetRequestForConsole->boots  
+  trap(Object(Illuminate\Foundation\Application))                              
+  #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)   
+  #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()         
+  #17 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle  
+  (Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Componen  
+  t\Console\Output\ConsoleOutput))                                             
+  #18 {main}                                                                   
+                                                                               
+
+
+Deprecated: Return type of PhpOption\Some::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/Some.php on line 152
+
+Deprecated: Return type of PhpOption\None::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/None.php on line 118
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 608
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 690
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FileTypeFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FileTypeFilterIterator.php on line 42
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 55
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::hasChildren() should either be compatible with RecursiveIterator::hasChildren(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 74
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::getChildren() should either be compatible with RecursiveIterator::getChildren(): ?RecursiveIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 82
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FilenameFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FilenameFilterIterator.php on line 28
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\PathFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/PathFilterIterator.php on line 27
+
+In ParameterBag.php line 21:
+                                                                               
+  During inheritance of IteratorAggregate: Uncaught ErrorException: Return ty  
+  pe of Symfony\Component\HttpFoundation\ParameterBag::getIterator() should e  
+  ither be compatible with IteratorAggregate::getIterator(): Traversable, or   
+  the #[\ReturnTypeWillChange] attribute should be used to temporarily suppre  
+  ss the notice in /var/www/html/vendor/symfony/http-foundation/ParameterBag.  
+  php:210                                                                      
+  Stack trace:                                                                 
+  #0 /var/www/html/vendor/symfony/http-foundation/ParameterBag.php(21): Illum  
+  inate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type  
+   of ...', '/var/www/html/v...', 210)                                         
+  #1 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #2 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #3 /var/www/html/vendor/symfony/http-foundation/FileBag.php(22): Composer\A  
+  utoload\ClassLoader->loadClass('Symfony\\Compone...')                        
+  #4 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #5 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Symfony\\  
+  Compone...')                                                                 
+  #7 /var/www/html/vendor/symfony/http-foundation/Request.php(22): class_exis  
+  ts('Symfony\\Compone...')                                                    
+  #8 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #9 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Request.php(  
+  20): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')         
+  #11 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/h  
+  tml/v...')                                                                   
+  #12 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\i  
+  ncludeFile('/var/www/html/v...')                                             
+  #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootst  
+  rap/SetRequestForConsole.php(31): Composer\Autoload\ClassLoader->loadClass(  
+  'Illuminate\\Http...')                                                       
+  #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Applic  
+  ation.php(237): Illuminate\Foundation\Bootstrap\SetRequestForConsole->boots  
+  trap(Object(Illuminate\Foundation\Application))                              
+  #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)   
+  #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()         
+  #17 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle  
+  (Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Componen  
+  t\Console\Output\ConsoleOutput))                                             
+  #18 {main}                                                                   
+                                                                               
+
+
+Deprecated: Return type of PhpOption\Some::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/Some.php on line 152
+
+Deprecated: Return type of PhpOption\None::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/None.php on line 118
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 608
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 690
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FileTypeFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FileTypeFilterIterator.php on line 42
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 55
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::hasChildren() should either be compatible with RecursiveIterator::hasChildren(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 74
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::getChildren() should either be compatible with RecursiveIterator::getChildren(): ?RecursiveIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 82
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FilenameFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FilenameFilterIterator.php on line 28
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\PathFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/PathFilterIterator.php on line 27
+
+In ParameterBag.php line 21:
+                                                                               
+  During inheritance of IteratorAggregate: Uncaught ErrorException: Return ty  
+  pe of Symfony\Component\HttpFoundation\ParameterBag::getIterator() should e  
+  ither be compatible with IteratorAggregate::getIterator(): Traversable, or   
+  the #[\ReturnTypeWillChange] attribute should be used to temporarily suppre  
+  ss the notice in /var/www/html/vendor/symfony/http-foundation/ParameterBag.  
+  php:210                                                                      
+  Stack trace:                                                                 
+  #0 /var/www/html/vendor/symfony/http-foundation/ParameterBag.php(21): Illum  
+  inate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type  
+   of ...', '/var/www/html/v...', 210)                                         
+  #1 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #2 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #3 /var/www/html/vendor/symfony/http-foundation/FileBag.php(22): Composer\A  
+  utoload\ClassLoader->loadClass('Symfony\\Compone...')                        
+  #4 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #5 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Symfony\\  
+  Compone...')                                                                 
+  #7 /var/www/html/vendor/symfony/http-foundation/Request.php(22): class_exis  
+  ts('Symfony\\Compone...')                                                    
+  #8 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #9 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Request.php(  
+  20): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')         
+  #11 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/h  
+  tml/v...')                                                                   
+  #12 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\i  
+  ncludeFile('/var/www/html/v...')                                             
+  #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootst  
+  rap/SetRequestForConsole.php(31): Composer\Autoload\ClassLoader->loadClass(  
+  'Illuminate\\Http...')                                                       
+  #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Applic  
+  ation.php(237): Illuminate\Foundation\Bootstrap\SetRequestForConsole->boots  
+  trap(Object(Illuminate\Foundation\Application))                              
+  #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)   
+  #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()         
+  #17 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle  
+  (Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Componen  
+  t\Console\Output\ConsoleOutput))                                             
+  #18 {main}                                                                   
+                                                                               
+
+
+Deprecated: Return type of PhpOption\Some::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/Some.php on line 152
+
+Deprecated: Return type of PhpOption\None::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/None.php on line 118
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 608
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 690
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FileTypeFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FileTypeFilterIterator.php on line 42
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 55
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::hasChildren() should either be compatible with RecursiveIterator::hasChildren(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 74
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::getChildren() should either be compatible with RecursiveIterator::getChildren(): ?RecursiveIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 82
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FilenameFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FilenameFilterIterator.php on line 28
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\PathFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/PathFilterIterator.php on line 27
+
+In ParameterBag.php line 21:
+                                                                               
+  During inheritance of IteratorAggregate: Uncaught ErrorException: Return ty  
+  pe of Symfony\Component\HttpFoundation\ParameterBag::getIterator() should e  
+  ither be compatible with IteratorAggregate::getIterator(): Traversable, or   
+  the #[\ReturnTypeWillChange] attribute should be used to temporarily suppre  
+  ss the notice in /var/www/html/vendor/symfony/http-foundation/ParameterBag.  
+  php:210                                                                      
+  Stack trace:                                                                 
+  #0 /var/www/html/vendor/symfony/http-foundation/ParameterBag.php(21): Illum  
+  inate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type  
+   of ...', '/var/www/html/v...', 210)                                         
+  #1 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #2 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #3 /var/www/html/vendor/symfony/http-foundation/FileBag.php(22): Composer\A  
+  utoload\ClassLoader->loadClass('Symfony\\Compone...')                        
+  #4 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #5 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Symfony\\  
+  Compone...')                                                                 
+  #7 /var/www/html/vendor/symfony/http-foundation/Request.php(22): class_exis  
+  ts('Symfony\\Compone...')                                                    
+  #8 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #9 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Request.php(  
+  20): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')         
+  #11 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/h  
+  tml/v...')                                                                   
+  #12 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\i  
+  ncludeFile('/var/www/html/v...')                                             
+  #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootst  
+  rap/SetRequestForConsole.php(31): Composer\Autoload\ClassLoader->loadClass(  
+  'Illuminate\\Http...')                                                       
+  #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Applic  
+  ation.php(237): Illuminate\Foundation\Bootstrap\SetRequestForConsole->boots  
+  trap(Object(Illuminate\Foundation\Application))                              
+  #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)   
+  #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()         
+  #17 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle  
+  (Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Componen  
+  t\Console\Output\ConsoleOutput))                                             
+  #18 {main}                                                                   
+                                                                               
+
+
+Deprecated: Return type of PhpOption\Some::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/Some.php on line 152
+
+Deprecated: Return type of PhpOption\None::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/None.php on line 118
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 608
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 690
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FileTypeFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FileTypeFilterIterator.php on line 42
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 55
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::hasChildren() should either be compatible with RecursiveIterator::hasChildren(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 74
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::getChildren() should either be compatible with RecursiveIterator::getChildren(): ?RecursiveIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 82
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FilenameFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FilenameFilterIterator.php on line 28
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\PathFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/PathFilterIterator.php on line 27
+
+In ParameterBag.php line 21:
+                                                                               
+  During inheritance of IteratorAggregate: Uncaught ErrorException: Return ty  
+  pe of Symfony\Component\HttpFoundation\ParameterBag::getIterator() should e  
+  ither be compatible with IteratorAggregate::getIterator(): Traversable, or   
+  the #[\ReturnTypeWillChange] attribute should be used to temporarily suppre  
+  ss the notice in /var/www/html/vendor/symfony/http-foundation/ParameterBag.  
+  php:210                                                                      
+  Stack trace:                                                                 
+  #0 /var/www/html/vendor/symfony/http-foundation/ParameterBag.php(21): Illum  
+  inate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type  
+   of ...', '/var/www/html/v...', 210)                                         
+  #1 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #2 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #3 /var/www/html/vendor/symfony/http-foundation/FileBag.php(22): Composer\A  
+  utoload\ClassLoader->loadClass('Symfony\\Compone...')                        
+  #4 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #5 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Symfony\\  
+  Compone...')                                                                 
+  #7 /var/www/html/vendor/symfony/http-foundation/Request.php(22): class_exis  
+  ts('Symfony\\Compone...')                                                    
+  #8 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #9 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Request.php(  
+  20): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')         
+  #11 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/h  
+  tml/v...')                                                                   
+  #12 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\i  
+  ncludeFile('/var/www/html/v...')                                             
+  #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootst  
+  rap/SetRequestForConsole.php(31): Composer\Autoload\ClassLoader->loadClass(  
+  'Illuminate\\Http...')                                                       
+  #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Applic  
+  ation.php(237): Illuminate\Foundation\Bootstrap\SetRequestForConsole->boots  
+  trap(Object(Illuminate\Foundation\Application))                              
+  #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)   
+  #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()         
+  #17 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle  
+  (Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Componen  
+  t\Console\Output\ConsoleOutput))                                             
+  #18 {main}                                                                   
+                                                                               
+
+
+Deprecated: Return type of PhpOption\Some::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/Some.php on line 152
+
+Deprecated: Return type of PhpOption\None::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/None.php on line 118
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 608
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 690
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FileTypeFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FileTypeFilterIterator.php on line 42
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 55
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::hasChildren() should either be compatible with RecursiveIterator::hasChildren(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 74
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::getChildren() should either be compatible with RecursiveIterator::getChildren(): ?RecursiveIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 82
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FilenameFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FilenameFilterIterator.php on line 28
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\PathFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/PathFilterIterator.php on line 27
+
+In ParameterBag.php line 21:
+                                                                               
+  During inheritance of IteratorAggregate: Uncaught ErrorException: Return ty  
+  pe of Symfony\Component\HttpFoundation\ParameterBag::getIterator() should e  
+  ither be compatible with IteratorAggregate::getIterator(): Traversable, or   
+  the #[\ReturnTypeWillChange] attribute should be used to temporarily suppre  
+  ss the notice in /var/www/html/vendor/symfony/http-foundation/ParameterBag.  
+  php:210                                                                      
+  Stack trace:                                                                 
+  #0 /var/www/html/vendor/symfony/http-foundation/ParameterBag.php(21): Illum  
+  inate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type  
+   of ...', '/var/www/html/v...', 210)                                         
+  #1 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #2 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #3 /var/www/html/vendor/symfony/http-foundation/FileBag.php(22): Composer\A  
+  utoload\ClassLoader->loadClass('Symfony\\Compone...')                        
+  #4 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #5 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Symfony\\  
+  Compone...')                                                                 
+  #7 /var/www/html/vendor/symfony/http-foundation/Request.php(22): class_exis  
+  ts('Symfony\\Compone...')                                                    
+  #8 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #9 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Request.php(  
+  20): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')         
+  #11 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/h  
+  tml/v...')                                                                   
+  #12 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\i  
+  ncludeFile('/var/www/html/v...')                                             
+  #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootst  
+  rap/SetRequestForConsole.php(31): Composer\Autoload\ClassLoader->loadClass(  
+  'Illuminate\\Http...')                                                       
+  #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Applic  
+  ation.php(237): Illuminate\Foundation\Bootstrap\SetRequestForConsole->boots  
+  trap(Object(Illuminate\Foundation\Application))                              
+  #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)   
+  #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()         
+  #17 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle  
+  (Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Componen  
+  t\Console\Output\ConsoleOutput))                                             
+  #18 {main}                                                                   
+                                                                               
+
+
+Deprecated: Return type of PhpOption\Some::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/Some.php on line 152
+
+Deprecated: Return type of PhpOption\None::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/None.php on line 118
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 608
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 690
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FileTypeFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FileTypeFilterIterator.php on line 42
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 55
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::hasChildren() should either be compatible with RecursiveIterator::hasChildren(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 74
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::getChildren() should either be compatible with RecursiveIterator::getChildren(): ?RecursiveIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 82
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FilenameFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FilenameFilterIterator.php on line 28
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\PathFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/PathFilterIterator.php on line 27
+
+In ParameterBag.php line 21:
+                                                                               
+  During inheritance of IteratorAggregate: Uncaught ErrorException: Return ty  
+  pe of Symfony\Component\HttpFoundation\ParameterBag::getIterator() should e  
+  ither be compatible with IteratorAggregate::getIterator(): Traversable, or   
+  the #[\ReturnTypeWillChange] attribute should be used to temporarily suppre  
+  ss the notice in /var/www/html/vendor/symfony/http-foundation/ParameterBag.  
+  php:210                                                                      
+  Stack trace:                                                                 
+  #0 /var/www/html/vendor/symfony/http-foundation/ParameterBag.php(21): Illum  
+  inate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type  
+   of ...', '/var/www/html/v...', 210)                                         
+  #1 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #2 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #3 /var/www/html/vendor/symfony/http-foundation/FileBag.php(22): Composer\A  
+  utoload\ClassLoader->loadClass('Symfony\\Compone...')                        
+  #4 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #5 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Symfony\\  
+  Compone...')                                                                 
+  #7 /var/www/html/vendor/symfony/http-foundation/Request.php(22): class_exis  
+  ts('Symfony\\Compone...')                                                    
+  #8 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #9 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Request.php(  
+  20): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')         
+  #11 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/h  
+  tml/v...')                                                                   
+  #12 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\i  
+  ncludeFile('/var/www/html/v...')                                             
+  #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootst  
+  rap/SetRequestForConsole.php(31): Composer\Autoload\ClassLoader->loadClass(  
+  'Illuminate\\Http...')                                                       
+  #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Applic  
+  ation.php(237): Illuminate\Foundation\Bootstrap\SetRequestForConsole->boots  
+  trap(Object(Illuminate\Foundation\Application))                              
+  #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)   
+  #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()         
+  #17 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle  
+  (Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Componen  
+  t\Console\Output\ConsoleOutput))                                             
+  #18 {main}                                                                   
+                                                                               
+
+
+Deprecated: Return type of PhpOption\Some::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/Some.php on line 152
+
+Deprecated: Return type of PhpOption\None::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/None.php on line 118
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 608
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 690
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FileTypeFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FileTypeFilterIterator.php on line 42
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 55
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::hasChildren() should either be compatible with RecursiveIterator::hasChildren(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 74
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::getChildren() should either be compatible with RecursiveIterator::getChildren(): ?RecursiveIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 82
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FilenameFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FilenameFilterIterator.php on line 28
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\PathFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/PathFilterIterator.php on line 27
+
+In ParameterBag.php line 21:
+                                                                               
+  During inheritance of IteratorAggregate: Uncaught ErrorException: Return ty  
+  pe of Symfony\Component\HttpFoundation\ParameterBag::getIterator() should e  
+  ither be compatible with IteratorAggregate::getIterator(): Traversable, or   
+  the #[\ReturnTypeWillChange] attribute should be used to temporarily suppre  
+  ss the notice in /var/www/html/vendor/symfony/http-foundation/ParameterBag.  
+  php:210                                                                      
+  Stack trace:                                                                 
+  #0 /var/www/html/vendor/symfony/http-foundation/ParameterBag.php(21): Illum  
+  inate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type  
+   of ...', '/var/www/html/v...', 210)                                         
+  #1 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #2 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #3 /var/www/html/vendor/symfony/http-foundation/FileBag.php(22): Composer\A  
+  utoload\ClassLoader->loadClass('Symfony\\Compone...')                        
+  #4 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #5 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Symfony\\  
+  Compone...')                                                                 
+  #7 /var/www/html/vendor/symfony/http-foundation/Request.php(22): class_exis  
+  ts('Symfony\\Compone...')                                                    
+  #8 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #9 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Request.php(  
+  20): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')         
+  #11 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/h  
+  tml/v...')                                                                   
+  #12 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\i  
+  ncludeFile('/var/www/html/v...')                                             
+  #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootst  
+  rap/SetRequestForConsole.php(31): Composer\Autoload\ClassLoader->loadClass(  
+  'Illuminate\\Http...')                                                       
+  #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Applic  
+  ation.php(237): Illuminate\Foundation\Bootstrap\SetRequestForConsole->boots  
+  trap(Object(Illuminate\Foundation\Application))                              
+  #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)   
+  #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()         
+  #17 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle  
+  (Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Componen  
+  t\Console\Output\ConsoleOutput))                                             
+  #18 {main}                                                                   
+                                                                               
+
+
+Deprecated: Return type of PhpOption\Some::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/Some.php on line 152
+
+Deprecated: Return type of PhpOption\None::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/None.php on line 118
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 608
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 690
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FileTypeFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FileTypeFilterIterator.php on line 42
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 55
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::hasChildren() should either be compatible with RecursiveIterator::hasChildren(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 74
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::getChildren() should either be compatible with RecursiveIterator::getChildren(): ?RecursiveIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 82
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FilenameFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FilenameFilterIterator.php on line 28
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\PathFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/PathFilterIterator.php on line 27
+
+In ParameterBag.php line 21:
+                                                                               
+  During inheritance of IteratorAggregate: Uncaught ErrorException: Return ty  
+  pe of Symfony\Component\HttpFoundation\ParameterBag::getIterator() should e  
+  ither be compatible with IteratorAggregate::getIterator(): Traversable, or   
+  the #[\ReturnTypeWillChange] attribute should be used to temporarily suppre  
+  ss the notice in /var/www/html/vendor/symfony/http-foundation/ParameterBag.  
+  php:210                                                                      
+  Stack trace:                                                                 
+  #0 /var/www/html/vendor/symfony/http-foundation/ParameterBag.php(21): Illum  
+  inate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type  
+   of ...', '/var/www/html/v...', 210)                                         
+  #1 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #2 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #3 /var/www/html/vendor/symfony/http-foundation/FileBag.php(22): Composer\A  
+  utoload\ClassLoader->loadClass('Symfony\\Compone...')                        
+  #4 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #5 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Symfony\\  
+  Compone...')                                                                 
+  #7 /var/www/html/vendor/symfony/http-foundation/Request.php(22): class_exis  
+  ts('Symfony\\Compone...')                                                    
+  #8 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #9 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Request.php(  
+  20): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')         
+  #11 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/h  
+  tml/v...')                                                                   
+  #12 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\i  
+  ncludeFile('/var/www/html/v...')                                             
+  #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootst  
+  rap/SetRequestForConsole.php(31): Composer\Autoload\ClassLoader->loadClass(  
+  'Illuminate\\Http...')                                                       
+  #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Applic  
+  ation.php(237): Illuminate\Foundation\Bootstrap\SetRequestForConsole->boots  
+  trap(Object(Illuminate\Foundation\Application))                              
+  #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)   
+  #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()         
+  #17 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle  
+  (Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Componen  
+  t\Console\Output\ConsoleOutput))                                             
+  #18 {main}                                                                   
+                                                                               
+
+
+Deprecated: Return type of PhpOption\Some::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/Some.php on line 152
+
+Deprecated: Return type of PhpOption\None::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/None.php on line 118
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 608
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 690
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FileTypeFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FileTypeFilterIterator.php on line 42
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 55
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::hasChildren() should either be compatible with RecursiveIterator::hasChildren(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 74
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::getChildren() should either be compatible with RecursiveIterator::getChildren(): ?RecursiveIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 82
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FilenameFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FilenameFilterIterator.php on line 28
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\PathFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/PathFilterIterator.php on line 27
+
+In ParameterBag.php line 21:
+                                                                               
+  During inheritance of IteratorAggregate: Uncaught ErrorException: Return ty  
+  pe of Symfony\Component\HttpFoundation\ParameterBag::getIterator() should e  
+  ither be compatible with IteratorAggregate::getIterator(): Traversable, or   
+  the #[\ReturnTypeWillChange] attribute should be used to temporarily suppre  
+  ss the notice in /var/www/html/vendor/symfony/http-foundation/ParameterBag.  
+  php:210                                                                      
+  Stack trace:                                                                 
+  #0 /var/www/html/vendor/symfony/http-foundation/ParameterBag.php(21): Illum  
+  inate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type  
+   of ...', '/var/www/html/v...', 210)                                         
+  #1 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #2 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #3 /var/www/html/vendor/symfony/http-foundation/FileBag.php(22): Composer\A  
+  utoload\ClassLoader->loadClass('Symfony\\Compone...')                        
+  #4 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #5 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Symfony\\  
+  Compone...')                                                                 
+  #7 /var/www/html/vendor/symfony/http-foundation/Request.php(22): class_exis  
+  ts('Symfony\\Compone...')                                                    
+  #8 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #9 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Request.php(  
+  20): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')         
+  #11 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/h  
+  tml/v...')                                                                   
+  #12 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\i  
+  ncludeFile('/var/www/html/v...')                                             
+  #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootst  
+  rap/SetRequestForConsole.php(31): Composer\Autoload\ClassLoader->loadClass(  
+  'Illuminate\\Http...')                                                       
+  #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Applic  
+  ation.php(237): Illuminate\Foundation\Bootstrap\SetRequestForConsole->boots  
+  trap(Object(Illuminate\Foundation\Application))                              
+  #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)   
+  #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()         
+  #17 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle  
+  (Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Componen  
+  t\Console\Output\ConsoleOutput))                                             
+  #18 {main}                                                                   
+                                                                               
+
+
+Deprecated: Return type of PhpOption\Some::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/Some.php on line 152
+
+Deprecated: Return type of PhpOption\None::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/None.php on line 118
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 608
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 690
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FileTypeFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FileTypeFilterIterator.php on line 42
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 55
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::hasChildren() should either be compatible with RecursiveIterator::hasChildren(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 74
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::getChildren() should either be compatible with RecursiveIterator::getChildren(): ?RecursiveIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 82
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FilenameFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FilenameFilterIterator.php on line 28
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\PathFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/PathFilterIterator.php on line 27
+
+In ParameterBag.php line 21:
+                                                                               
+  During inheritance of IteratorAggregate: Uncaught ErrorException: Return ty  
+  pe of Symfony\Component\HttpFoundation\ParameterBag::getIterator() should e  
+  ither be compatible with IteratorAggregate::getIterator(): Traversable, or   
+  the #[\ReturnTypeWillChange] attribute should be used to temporarily suppre  
+  ss the notice in /var/www/html/vendor/symfony/http-foundation/ParameterBag.  
+  php:210                                                                      
+  Stack trace:                                                                 
+  #0 /var/www/html/vendor/symfony/http-foundation/ParameterBag.php(21): Illum  
+  inate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type  
+   of ...', '/var/www/html/v...', 210)                                         
+  #1 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #2 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #3 /var/www/html/vendor/symfony/http-foundation/FileBag.php(22): Composer\A  
+  utoload\ClassLoader->loadClass('Symfony\\Compone...')                        
+  #4 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #5 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Symfony\\  
+  Compone...')                                                                 
+  #7 /var/www/html/vendor/symfony/http-foundation/Request.php(22): class_exis  
+  ts('Symfony\\Compone...')                                                    
+  #8 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #9 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Request.php(  
+  20): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')         
+  #11 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/h  
+  tml/v...')                                                                   
+  #12 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\i  
+  ncludeFile('/var/www/html/v...')                                             
+  #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootst  
+  rap/SetRequestForConsole.php(31): Composer\Autoload\ClassLoader->loadClass(  
+  'Illuminate\\Http...')                                                       
+  #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Applic  
+  ation.php(237): Illuminate\Foundation\Bootstrap\SetRequestForConsole->boots  
+  trap(Object(Illuminate\Foundation\Application))                              
+  #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)   
+  #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()         
+  #17 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle  
+  (Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Componen  
+  t\Console\Output\ConsoleOutput))                                             
+  #18 {main}                                                                   
+                                                                               
+
+
+Deprecated: Return type of PhpOption\Some::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/Some.php on line 152
+
+Deprecated: Return type of PhpOption\None::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/None.php on line 118
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 608
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 690
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FileTypeFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FileTypeFilterIterator.php on line 42
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 55
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::hasChildren() should either be compatible with RecursiveIterator::hasChildren(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 74
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::getChildren() should either be compatible with RecursiveIterator::getChildren(): ?RecursiveIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 82
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FilenameFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FilenameFilterIterator.php on line 28
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\PathFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/PathFilterIterator.php on line 27
+
+In ParameterBag.php line 21:
+                                                                               
+  During inheritance of IteratorAggregate: Uncaught ErrorException: Return ty  
+  pe of Symfony\Component\HttpFoundation\ParameterBag::getIterator() should e  
+  ither be compatible with IteratorAggregate::getIterator(): Traversable, or   
+  the #[\ReturnTypeWillChange] attribute should be used to temporarily suppre  
+  ss the notice in /var/www/html/vendor/symfony/http-foundation/ParameterBag.  
+  php:210                                                                      
+  Stack trace:                                                                 
+  #0 /var/www/html/vendor/symfony/http-foundation/ParameterBag.php(21): Illum  
+  inate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type  
+   of ...', '/var/www/html/v...', 210)                                         
+  #1 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #2 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #3 /var/www/html/vendor/symfony/http-foundation/FileBag.php(22): Composer\A  
+  utoload\ClassLoader->loadClass('Symfony\\Compone...')                        
+  #4 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #5 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Symfony\\  
+  Compone...')                                                                 
+  #7 /var/www/html/vendor/symfony/http-foundation/Request.php(22): class_exis  
+  ts('Symfony\\Compone...')                                                    
+  #8 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #9 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Request.php(  
+  20): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')         
+  #11 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/h  
+  tml/v...')                                                                   
+  #12 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\i  
+  ncludeFile('/var/www/html/v...')                                             
+  #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootst  
+  rap/SetRequestForConsole.php(31): Composer\Autoload\ClassLoader->loadClass(  
+  'Illuminate\\Http...')                                                       
+  #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Applic  
+  ation.php(237): Illuminate\Foundation\Bootstrap\SetRequestForConsole->boots  
+  trap(Object(Illuminate\Foundation\Application))                              
+  #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)   
+  #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()         
+  #17 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle  
+  (Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Componen  
+  t\Console\Output\ConsoleOutput))                                             
+  #18 {main}                                                                   
+                                                                               
+
+
+Deprecated: Return type of PhpOption\Some::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/Some.php on line 152
+
+Deprecated: Return type of PhpOption\None::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/None.php on line 118
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 608
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 690
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FileTypeFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FileTypeFilterIterator.php on line 42
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 55
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::hasChildren() should either be compatible with RecursiveIterator::hasChildren(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 74
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::getChildren() should either be compatible with RecursiveIterator::getChildren(): ?RecursiveIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 82
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FilenameFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FilenameFilterIterator.php on line 28
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\PathFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/PathFilterIterator.php on line 27
+
+In ParameterBag.php line 21:
+                                                                               
+  During inheritance of IteratorAggregate: Uncaught ErrorException: Return ty  
+  pe of Symfony\Component\HttpFoundation\ParameterBag::getIterator() should e  
+  ither be compatible with IteratorAggregate::getIterator(): Traversable, or   
+  the #[\ReturnTypeWillChange] attribute should be used to temporarily suppre  
+  ss the notice in /var/www/html/vendor/symfony/http-foundation/ParameterBag.  
+  php:210                                                                      
+  Stack trace:                                                                 
+  #0 /var/www/html/vendor/symfony/http-foundation/ParameterBag.php(21): Illum  
+  inate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type  
+   of ...', '/var/www/html/v...', 210)                                         
+  #1 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #2 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #3 /var/www/html/vendor/symfony/http-foundation/FileBag.php(22): Composer\A  
+  utoload\ClassLoader->loadClass('Symfony\\Compone...')                        
+  #4 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #5 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Symfony\\  
+  Compone...')                                                                 
+  #7 /var/www/html/vendor/symfony/http-foundation/Request.php(22): class_exis  
+  ts('Symfony\\Compone...')                                                    
+  #8 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #9 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Request.php(  
+  20): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')         
+  #11 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/h  
+  tml/v...')                                                                   
+  #12 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\i  
+  ncludeFile('/var/www/html/v...')                                             
+  #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootst  
+  rap/SetRequestForConsole.php(31): Composer\Autoload\ClassLoader->loadClass(  
+  'Illuminate\\Http...')                                                       
+  #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Applic  
+  ation.php(237): Illuminate\Foundation\Bootstrap\SetRequestForConsole->boots  
+  trap(Object(Illuminate\Foundation\Application))                              
+  #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)   
+  #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()         
+  #17 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle  
+  (Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Componen  
+  t\Console\Output\ConsoleOutput))                                             
+  #18 {main}                                                                   
+                                                                               
+
+
+Deprecated: Return type of PhpOption\Some::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/Some.php on line 152
+
+Deprecated: Return type of PhpOption\None::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/phpoption/phpoption/src/PhpOption/None.php on line 118
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 608
+
+Deprecated: Return type of Symfony\Component\Finder\Finder::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Finder.php on line 690
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FileTypeFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FileTypeFilterIterator.php on line 42
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 55
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::hasChildren() should either be compatible with RecursiveIterator::hasChildren(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 74
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\ExcludeDirectoryFilterIterator::getChildren() should either be compatible with RecursiveIterator::getChildren(): ?RecursiveIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php on line 82
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\FilenameFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/FilenameFilterIterator.php on line 28
+
+Deprecated: Return type of Symfony\Component\Finder\Iterator\PathFilterIterator::accept() should either be compatible with FilterIterator::accept(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /var/www/html/vendor/symfony/finder/Iterator/PathFilterIterator.php on line 27
+
+In ParameterBag.php line 21:
+                                                                               
+  During inheritance of IteratorAggregate: Uncaught ErrorException: Return ty  
+  pe of Symfony\Component\HttpFoundation\ParameterBag::getIterator() should e  
+  ither be compatible with IteratorAggregate::getIterator(): Traversable, or   
+  the #[\ReturnTypeWillChange] attribute should be used to temporarily suppre  
+  ss the notice in /var/www/html/vendor/symfony/http-foundation/ParameterBag.  
+  php:210                                                                      
+  Stack trace:                                                                 
+  #0 /var/www/html/vendor/symfony/http-foundation/ParameterBag.php(21): Illum  
+  inate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type  
+   of ...', '/var/www/html/v...', 210)                                         
+  #1 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #2 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #3 /var/www/html/vendor/symfony/http-foundation/FileBag.php(22): Composer\A  
+  utoload\ClassLoader->loadClass('Symfony\\Compone...')                        
+  #4 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #5 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #6 [internal function]: Composer\Autoload\ClassLoader->loadClass('Symfony\\  
+  Compone...')                                                                 
+  #7 /var/www/html/vendor/symfony/http-foundation/Request.php(22): class_exis  
+  ts('Symfony\\Compone...')                                                    
+  #8 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/ht  
+  ml/v...')                                                                    
+  #9 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\in  
+  cludeFile('/var/www/html/v...')                                              
+  #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Request.php(  
+  20): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')         
+  #11 /var/www/html/vendor/composer/ClassLoader.php(480): include('/var/www/h  
+  tml/v...')                                                                   
+  #12 /var/www/html/vendor/composer/ClassLoader.php(346): Composer\Autoload\i  
+  ncludeFile('/var/www/html/v...')                                             
+  #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootst  
+  rap/SetRequestForConsole.php(31): Composer\Autoload\ClassLoader->loadClass(  
+  'Illuminate\\Http...')                                                       
+  #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Applic  
+  ation.php(237): Illuminate\Foundation\Bootstrap\SetRequestForConsole->boots  
+  trap(Object(Illuminate\Foundation\Application))                              
+  #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)   
+  #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Consol  
+  e/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()         
+  #17 /var/www/html/artisan(37): Illuminate\Foundation\Console\Kernel->handle  
+  (Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Componen  
+  t\Console\Output\ConsoleOutput))                                             
+  #18 {main}                                                                   
+                                                                               
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+
+                                     
+  Command "horizon" is not defined.  
+                                     
+
+

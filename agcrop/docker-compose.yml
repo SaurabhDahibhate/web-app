@@ -1,0 +1,124 @@
+version: '3.8'
+
+networks:
+    ag:
+        name: ag
+
+services:
+    nginx:
+        build:
+            context: deploy
+            dockerfile: nginx.dockerfile
+        container_name: nginx
+        depends_on:
+            - php
+            - mysql
+        ports:
+            - "8000:80"
+        #      - 443:443
+        volumes:
+            - .:/var/www/html
+        networks:
+            - ag
+
+    php:
+        build:
+            context: deploy
+            dockerfile: php.dockerfile
+        container_name: php
+        volumes:
+            - .:/var/www/html
+        networks:
+            - ag
+
+    mysql:
+        platform: linux/x86_64
+        image: mysql:8.0
+        container_name: mysql
+        restart: on-failure
+        ports:
+            - 4306:3306
+#        volumes:
+#            - ./deploy/mysql:/var/lib/mysql
+        environment:
+            MYSQL_DATABASE: ag_dashboard
+            MYSQL_USER: ag
+            MYSQL_PASSWORD: ag
+            MYSQL_ROOT_PASSWORD: ag
+        networks:
+            - ag
+
+    composer:
+        build:
+            context: deploy
+            dockerfile: composer.dockerfile
+            args:
+                - PHPUSER=${PHPUSER:-laravel}
+                - PHPGROUP=${PHPGROUP:-laravel}
+        container_name: composer
+        volumes:
+            - ./:/var/www/html
+        working_dir: /var/www/html
+        depends_on:
+            - php
+        user: ${PHPUSER:-laravel}
+        entrypoint: [ 'composer', '--ignore-platform-reqs' ]
+        networks:
+            - ag
+
+    artisan:
+        build:
+            context: deploy
+            dockerfile: php.dockerfile
+        container_name: artisan
+        volumes:
+            - .:/var/www/html
+        working_dir: /var/www/html
+        entrypoint: [ "php", "artisan" ]
+        networks:
+            - ag
+
+    #    npm:
+    #        image: node:13.7
+    #        container_name: npm
+    #        volumes:
+    #            - .:/var/www/html
+    #        working_dir: /var/www/html
+    #        entrypoint: [ "npm" ]
+    #        networks:
+    #            - ag
+
+    #    selenium:
+    #        image: 'selenium/standalone-chrome'
+    #        container_name: selenium
+    #        ports:
+    #            - 4444:4444
+    #        volumes:
+    #            - './deploy/wa:/var/www/wa'
+    #        environment:
+    #            - GRID_TIMEOUT=9000000000
+    #            - GRID_BROWSER_TIMEOUT=9000000000
+    #            - GRID_MAX_SESSION=20
+    #        networks:
+    #            - ag
+
+#    redis:
+#        image: redis:alpine
+#        command: redis-server --requirepass agtech
+#        container_name: redis
+#        ports:
+#            - 6379:6379
+#        networks:
+#            - ag
+
+#    scheduler:
+#        build:
+#            context: deploy
+#            dockerfile: php.dockerfile
+#        container_name: scheduler
+#        volumes:
+#            - .:/var/www/html
+#        working_dir: /var/www/html
+#        entrypoint: [ "php", "artisan", "schedule:work" ]
+#        networks:
+#            - ag
